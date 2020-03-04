@@ -1,9 +1,10 @@
+//  Получить в переменные элементы: record, shot, hit, dead, каждый элемент в отдельную переменную. 
 const record = document.getElementById('record');
 const shot = document.getElementById('shot');
 const hit = document.getElementById('hit');
 const dead = document.getElementById('dead');
-const enemy = document.getElementById('enemy');
-const again = document.getElementById('again');
+const enemy = document.getElementById('enemy');  //Получить в переменную таблицу enemy 
+const again = document.getElementById('again');  //Получить в переменную элемент again
 
 
 const play = {
